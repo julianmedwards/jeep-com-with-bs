@@ -28,6 +28,153 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="me-auto" href="#">
+        <img
+          class="navbar-brand"
+          src="/img/logos/logo-jeep.png"
+          alt="Jeep.com"
+        />
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#vehicles" data-bs-toggle="collapse"
+            >VEHICLES<i class="bi bi-chevron-down"></i
+          ></a>
+        </li>
+      </ul>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar-toggler"
+      >
+        <span>MENU</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end bg-dark"
+        id="navbar-toggler"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#shopping" class="nav-link"
+              >SHOPPING TOOLS<i class="bi bi-chevron-down"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#capability" class="nav-link"
+              >CAPABILITY<i class="bi bi-chevron-down"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#jeep-life" class="nav-link"
+              >JEEP&reg LIFE<i class="bi bi-chevron-down"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#owners" class="nav-link"
+              >OWNERS<i class="bi bi-chevron-down"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#merchandise" class="nav-link"
+              >MERCHANDISE<i class="bi bi-box-arrow-up-right"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#espanol" class="nav-link"
+              ><i class="bi bi-chat-right-text-fill"></i>Español</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#shop" class="nav-link"
+              ><i class="bi bi-cart-fill"></i>SHOP ONLINE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#build" class="nav-link"
+              ><i class="bi bi-wrench-adjustable"></i>BUILD AND PRICE</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar Dropdowns -->
+    <div class="bg-dark text-light collapse" id="vehicles">
+      <h3>Vehicle Stuff</h3>
+    </div>
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="1"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/img/carousel/jeep-spring/jeep-spring-mob.jpg"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption">
+            <h5>
+              TRUSTED FOR OVER 80 YEARS, GET YOUR JEEP&reg BRAND VEHICLE NOW
+            </h5>
+            <h6>0% APR FOR 36 MONTHS</h6>
+            <h5>
+              ON SELECT 2021 AND 2022 JEEP&reg BRAND SUVS WHEN FINANCED THROUGH
+              CHRYSLER CAPITAL
+            </h5>
+            <p>Show Disclosure</p>
+            <button class="btn btn-warning">INCENTIVES AND OFFERS</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/img/carousel/wagoneer/wagoneer-mob.jpg"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption">
+            <h6>THE START OF A GRAND JOURNEY</h6>
+            <p>
+              A new set of standards for the premium SUV is here. Get ready to
+              experience sophistification, authenticity and modern mobility with
+              the All-New-Wagoneer and Grand Wagoneer.
+            </p>
+            <button class="btn btn-warning">
+              VISIT WAGONEER AND GRAND WAGONEER
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <!-- Bootstrap JS & Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
