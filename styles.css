@@ -69,6 +69,8 @@
     font-size: 8px;
 }
 
-.card {
+.card,
+.card-img-top {
     border: none;
+    border-radius: 0;
 }
