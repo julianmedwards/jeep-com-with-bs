@@ -59,3 +59,16 @@
     padding: 12px;
     height: 36px;
 }
+
+/* Vehicle Showcase */
+.vehicle-showcase .card {
+    flex-basis: 50%;
+}
+
+.msrp {
+    font-size: 8px;
+}
+
+.card {
+    border: none;
+}
