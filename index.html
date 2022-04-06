@@ -28,7 +28,7 @@
     />
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a class="me-auto" href="#">
         <img
           class="navbar-brand"
@@ -36,13 +36,50 @@
           alt="Jeep.com"
         />
       </a>
-      <ul class="navbar-nav">
+      <ul class="navbar-nav flex-row">
         <li class="nav-item">
           <a
             class="nav-link text-uppercase"
-            href="#vehicles"
+            href="#nav-vehicles"
             data-bs-toggle="collapse"
             >Vehicles<i class="bi bi-chevron-down"></i
+          ></a>
+        </li>
+        <li class="d-none d-sm-inline-block nav-item">
+          <a
+            class="nav-link text-uppercase"
+            href="#nav-shopping"
+            data-bs-toggle="collapse"
+            >Shopping Tools<i class="bi bi-chevron-down"></i
+          ></a>
+        </li>
+        <li class="d-none d-md-inline-block nav-item">
+          <a
+            class="nav-link text-uppercase"
+            href="#nav-capability"
+            data-bs-toggle="collapse"
+            >Capability<i class="bi bi-chevron-down"></i
+          ></a>
+        </li>
+        <li class="d-none d-lg-inline-block nav-item">
+          <a
+            class="nav-link text-uppercase"
+            href="#nav-jeep-life"
+            data-bs-toggle="collapse"
+            >JEEP<sub>®</sub> Life<i class="bi bi-chevron-down"></i
+          ></a>
+        </li>
+        <li class="d-none d-lg-inline-block nav-item">
+          <a
+            class="nav-link text-uppercase"
+            href="#nav-owners"
+            data-bs-toggle="collapse"
+            >Owners<i class="bi bi-chevron-down"></i
+          ></a>
+        </li>
+        <li class="d-none d-lg-inline-block nav-item">
+          <a class="nav-link text-uppercase" href="#merchandise"
+            >Merchandise<i class="bi bi-box-arrow-up-right"></i
           ></a>
         </li>
       </ul>
@@ -56,32 +93,33 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse justify-content-end bg-dark"
+        class="bg-white collapse navbar-collapse justify-content-end"
+        data-bs-parent="nav"
         id="navbar-toggler"
       >
         <ul class="navbar-nav">
-          <li class="nav-item text-uppercase">
-            <a href="#shopping" class="nav-link"
+          <li class="d-sm-none nav-item text-uppercase">
+            <a href="#nav-shopping" class="nav-link"
               >Shopping Tools<i class="bi bi-chevron-down"></i
             ></a>
           </li>
-          <li class="nav-item text-uppercase">
-            <a href="#capability" class="nav-link"
+          <li class="d-md-none nav-item text-uppercase">
+            <a href="#nav-capability" class="nav-link"
               >Capability<i class="bi bi-chevron-down"></i
             ></a>
           </li>
-          <li class="nav-item text-uppercase">
-            <a href="#jeep-life" class="nav-link"
+          <li class="d-lg-none nav-item text-uppercase">
+            <a href="#nav-jeep-life" class="nav-link"
               >JEEP&reg Life<i class="bi bi-chevron-down"></i
             ></a>
           </li>
-          <li class="nav-item text-uppercase">
-            <a href="#owners" class="nav-link"
+          <li class="d-lg-none nav-item text-uppercase">
+            <a href="#nav-owners" class="nav-link"
               >Owners<i class="bi bi-chevron-down"></i
             ></a>
           </li>
-          <li class="nav-item text-uppercase">
-            <a href="#merchandise" class="nav-link"
+          <li class="d-lg-none nav-item text-uppercase">
+            <a href="#nav-merchandise" class="nav-link"
               >Merchandise<i class="bi bi-box-arrow-up-right"></i
             ></a>
           </li>
@@ -105,8 +143,40 @@
         </ul>
       </div>
       <!-- Navbar Dropdowns -->
-      <div class="bg-dark text-light collapse my-nav-dropdown" id="vehicles">
+      <div
+        class="bg-white col-12 collapse my-nav-dropdown"
+        data-bs-parent="#nav"
+        id="nav-vehicles"
+      >
         <h3 class="m-0 p-2">Vehicle Stuff</h3>
+      </div>
+      <div
+        class="bg-white col-12 collapse my-nav-dropdown"
+        data-bs-parent="#nav"
+        id="nav-shopping"
+      >
+        <h3 class="m-0 p-2">Shopping Stuff</h3>
+      </div>
+      <div
+        class="bg-white col-12 collapse my-nav-dropdown"
+        data-bs-parent="#nav"
+        id="nav-capability"
+      >
+        <h3 class="m-0 p-2">Capability Stuff</h3>
+      </div>
+      <div
+        class="bg-white col-12 collapse my-nav-dropdown"
+        data-bs-parent="#nav"
+        id="nav-jeep-life"
+      >
+        <h3 class="m-0 p-2">Jeep Life Stuff</h3>
+      </div>
+      <div
+        class="bg-white col-12 collapse my-nav-dropdown"
+        data-bs-parent="#nav"
+        id="nav-owners"
+      >
+        <h3 class="m-0 p-2">Owners Stuff</h3>
       </div>
     </nav>
     <div class="wrapper">

@@ -77,6 +77,9 @@
 .navbar-dark .navbar-toggler span {
     color: white;
 }
+.navbar-dark .navbar-collapse .nav-link {
+    color: #000;
+}
 .navbar-brand {
     max-width: 63px;
     margin-left: 15px;
@@ -99,7 +102,7 @@
 }
 
 /* Use Flex order to reorder hamburger last 3 */
-/* Visible/invisible for nav elements except vehicles/last 3 */
+/* d-{breakpoint}-{value} for nav elements except vehicles/last 3 */
 
 .wrapper {
     position: relative;
