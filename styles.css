@@ -69,6 +69,7 @@
 
 /* Navbar */
 .navbar {
+    z-index: 1030;
     height: 45px;
     padding: 0;
 }
@@ -91,8 +92,19 @@
     width: 1.1em;
 }
 
+.my-nav-dropdown {
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+
 /* Use Flex order to reorder hamburger last 3 */
 /* Visible/invisible for nav elements except vehicles/last 3 */
+
+.wrapper {
+    position: relative;
+    top: 45px;
+}
 
 /* Carousel */
 
