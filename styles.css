@@ -1,12 +1,67 @@
-:root {
-    --dark-color: #000;
-    --dark-transp: rgba(0, 0, 0, 0.65);
-    --light-color: #fff;
-    --primary-color: #ffba00;
-    --primary-darkened: #eaab00;
-    --grey: #acacac;
-    --light-grey: #e7e7e7;
-    --dark-grey: #212121;
+/* Colors */
+.bg-dark {
+    background-color: #000 !important;
+}
+.text-dark {
+    color: #000 !important;
+}
+
+.bg-secondary {
+    background-color: #ffba00 !important;
+}
+.text-secondary {
+    color: #ffba00 !important;
+}
+.btn-secondary {
+    background-color: #ffba00 !important;
+    color: #000 !important;
+    border: none !important;
+}
+.btn-secondary:active {
+    background: #eaab00 !important;
+}
+
+.bg-grey {
+    background-color: #e7e7e7;
+}
+.text-grey {
+    color: #e7e7e7;
+}
+
+.bg-grey-mid {
+    background-color: #636363;
+    color: white;
+}
+.text-grey-mid {
+    color: #636363;
+}
+
+.bg-grey-dark {
+    background-color: #212121;
+    color: white;
+}
+.text-grey-dark {
+    color: #212121;
+}
+
+.nav-transp-icon {
+    opacity: 0.5;
+}
+
+.bg-transp-light {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.bg-transp-dark {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 2px;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 /* Navbar */
@@ -48,10 +103,6 @@
     .carousel-control-next {
         display: initial;
     }
-}
-
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .zip-code {
