@@ -35,6 +35,9 @@
 .text-grey-mid {
     color: #636363;
 }
+.border-grey {
+    border-color: #636363 !important;
+}
 
 .bg-grey-dark {
     background-color: #212121;
