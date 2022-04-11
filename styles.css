@@ -58,6 +58,132 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Text Styling */
+html {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.head,
+.btn {
+    font-family: 'Heebo', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fw-bolder {
+    font-weight: 500 !important;
+}
+
+/* 8px */
+.fs-9 {
+    font-size: 0.571rem !important;
+    line-height: 1em !important;
+}
+/* 10px */
+.fs-8 {
+    font-size: 0.714rem !important;
+    line-height: 1em !important;
+}
+/* 12px */
+.fs-7 {
+    font-size: 0.857rem !important;
+    line-height: 1em !important;
+}
+
+/* 14px) */
+.fs-6 {
+    font-size: 1rem !important;
+    line-height: 1em !important;
+}
+
+/* 18px */
+.fs-5 {
+    font-size: 1.286rem !important;
+    line-height: 1em !important;
+}
+/* 20px */
+.fs-4 {
+    font-size: 1.429rem !important;
+    line-height: 1em !important;
+}
+/* 23px */
+.fs-3 {
+    font-size: 1.643rem !important;
+    line-height: 1em !important;
+}
+/* 26px */
+.fs-2 {
+    font-size: 1.857rem !important;
+    line-height: 1em !important;
+}
+
+/* .fs-1 {
+    -- Unused --
+} */
+
+.close-spacing {
+    letter-spacing: 0.7px !important;
+}
+
+.lh-xs {
+    line-height: 1.1rem !important;
+}
+
+.lh-sm {
+    line-height: 1.285rem !important;
+}
+
+.lh-base {
+    line-height: 1.429rem !important;
+}
+
+sub {
+    position: relative !important;
+    bottom: -0.3em !important;
+    top: 0.04rem !important;
+    font-size: 0.4em !important;
+    line-height: 1em !important;
+}
+
+sup {
+    position: relative !important;
+    top: -0.3em !important;
+    font-size: 0.7em !important;
+}
+
+.left-icon {
+    padding-right: 6px;
+}
+
+.right-icon {
+    padding-left: 6px;
+}
+
+.bi-box-arrow-up-right {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 0.1rem;
+}
+
 /* Buttons */
 .btn {
     border-radius: 2px;
@@ -65,6 +191,15 @@
 
 .btn:focus {
     box-shadow: none;
+}
+
+.btn > div > span {
+    flex: 1;
+}
+
+.btn > div > .right-icon,
+a > .right-icon {
+    flex: 0;
 }
 
 /* Navbar */
@@ -95,14 +230,20 @@
     width: 1.1em;
 }
 
+.navbar .bi-chevron-down,
+.navbar .bi-box-arrow-up-right {
+    margin-left: 10px;
+}
+
+.navbar .left-icon {
+    font-size: 1.25em;
+}
+
 .my-nav-dropdown {
     position: absolute;
     left: 0;
     top: 45px;
 }
-
-/* Use Flex order to reorder hamburger last 3 */
-/* d-{breakpoint}-{value} for nav elements except vehicles/last 3 */
 
 .wrapper {
     position: relative;
@@ -132,10 +273,6 @@
 /* Vehicle Showcase */
 .vehicle-showcase .card {
     flex-basis: 50%;
-}
-
-.msrp {
-    font-size: 8px;
 }
 
 .card,

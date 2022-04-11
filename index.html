@@ -36,16 +36,16 @@
           alt="Jeep.com"
         />
       </a>
-      <ul class="navbar-nav flex-row">
-        <li class="nav-item">
+      <ul class="dropdown-links navbar-nav flex-row">
+        <li class="nav-item px-3">
           <a
-            class="nav-link text-uppercase"
+            class="nav-link text-uppercase fs-7 fw-bold"
             href="#nav-vehicles"
             data-bs-toggle="collapse"
             >Vehicles<i class="bi bi-chevron-down"></i
           ></a>
         </li>
-        <li class="d-none d-sm-inline-block nav-item">
+        <li class="d-none d-sm-inline-block fs-7 fw-bold nav-item px-3">
           <a
             class="nav-link text-uppercase"
             href="#nav-shopping"
@@ -53,7 +53,7 @@
             >Shopping Tools<i class="bi bi-chevron-down"></i
           ></a>
         </li>
-        <li class="d-none d-md-inline-block nav-item">
+        <li class="d-none d-md-inline-block fs-7 fw-bold nav-item px-3">
           <a
             class="nav-link text-uppercase"
             href="#nav-capability"
@@ -61,7 +61,7 @@
             >Capability<i class="bi bi-chevron-down"></i
           ></a>
         </li>
-        <li class="d-none d-lg-inline-block nav-item">
+        <li class="d-none d-lg-inline-block fs-7 fw-bold nav-item px-3">
           <a
             class="nav-link text-uppercase"
             href="#nav-jeep-life"
@@ -69,7 +69,7 @@
             >JEEP<sub>®</sub> Life<i class="bi bi-chevron-down"></i
           ></a>
         </li>
-        <li class="d-none d-lg-inline-block nav-item">
+        <li class="d-none d-lg-inline-block fs-7 fw-bold nav-item px-3">
           <a
             class="nav-link text-uppercase"
             href="#nav-owners"
@@ -77,7 +77,7 @@
             >Owners<i class="bi bi-chevron-down"></i
           ></a>
         </li>
-        <li class="d-none d-lg-inline-block nav-item">
+        <li class="d-none d-lg-inline-block fs-7 fw-bold nav-item px-3">
           <a class="nav-link text-uppercase" href="#merchandise"
             >Merchandise<i class="bi bi-box-arrow-up-right"></i
           ></a>
@@ -89,7 +89,7 @@
         data-bs-toggle="collapse"
         data-bs-target="#navbar-toggler"
       >
-        <span>Menu</span>
+        <span class="fs-7 ps-3">Menu</span>
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
@@ -98,47 +98,50 @@
         id="navbar-toggler"
       >
         <ul class="navbar-nav">
-          <li class="d-sm-none nav-item text-uppercase">
+          <li class="d-sm-none nav-item order-2 text-uppercase fs-7 fw-bold">
             <a href="#nav-shopping" class="nav-link"
-              >Shopping Tools<i class="bi bi-chevron-down"></i
+              >Shopping Tools<i class="bi bi-plus-lg"></i
             ></a>
           </li>
-          <li class="d-md-none nav-item text-uppercase">
+          <li class="d-md-none nav-item order-2 text-uppercase fs-7 fw-bold">
             <a href="#nav-capability" class="nav-link"
-              >Capability<i class="bi bi-chevron-down"></i
+              >Capability<i class="bi bi-plus-lg"></i
             ></a>
           </li>
-          <li class="d-lg-none nav-item text-uppercase">
+          <li class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold">
             <a href="#nav-jeep-life" class="nav-link"
-              >JEEP&reg Life<i class="bi bi-chevron-down"></i
+              >JEEP&reg Life<i class="bi bi-plus-lg"></i
             ></a>
           </li>
-          <li class="d-lg-none nav-item text-uppercase">
+          <li class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold">
             <a href="#nav-owners" class="nav-link"
-              >Owners<i class="bi bi-chevron-down"></i
+              >Owners<i class="bi bi-plus-lg"></i
             ></a>
           </li>
-          <li class="d-lg-none nav-item text-uppercase">
+          <li class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold">
             <a href="#nav-merchandise" class="nav-link"
-              >Merchandise<i class="bi bi-box-arrow-up-right"></i
+              >Merchandise<i class="bi bi-chevron-right"></i
             ></a>
           </li>
-          <li class="nav-item">
-            <a href="#espanol" class="nav-link"
-              ><i class="bi bi-chat-right-text-fill nav-transp-icon"></i
+          <li class="nav-item order-3 order-lg-0">
+            <a href="#espanol" class="nav-link fs-7"
+              ><i
+                class="bi bi-chat-right-text-fill nav-transp-icon left-icon"
+              ></i
               >Español</a
             >
           </li>
-          <li class="nav-item text-uppercase">
-            <a href="#shop" class="nav-link"
-              ><i class="bi bi-cart-fill nav-transp-icon"></i>Shop Online</a
-            >
+          <li class="nav-item order-1 order-lg-1 text-uppercase">
+            <a href="#shop" class="nav-link fs-7 fw-bolder close-spacing"
+              ><i class="bi bi-cart-fill nav-transp-icon left-icon"></i>Shop
+              Online<i class="bi bi-chevron-right d-lg-none"></i
+            ></a>
           </li>
-          <li class="nav-item text-uppercase">
-            <a href="#build" class="nav-link"
-              ><i class="bi bi-wrench-adjustable nav-transp-icon"></i>Build &
-              Price</a
-            >
+          <li class="nav-item order-0 order-lg-2 text-uppercase">
+            <a href="#build" class="nav-link fs-7 fw-bolder close-spacing"
+              ><i class="bi bi-wrench-adjustable nav-transp-icon left-icon"></i
+              >Build & Price<i class="bi bi-chevron-right d-lg-none"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -202,18 +205,27 @@
               class="d-block w-100"
             />
             <div class="carousel-caption bg-transp-light">
-              <h5 class="text-uppercase">
+              <p class="text-uppercase fs-6 lh-base">
                 Trusted for over 80 years, get your JEEP<sub>®</sub> brand
-                vehicle now
-              </h5>
-              <h6 class="fw-bold text-uppercase">0% APR for 36 months</h6>
-              <h5 class="text-uppercase">
+                vehicle now.
+              </p>
+              <h6 class="fw-bold fs-8 text-uppercase">
+                0% APR for 36 months<sup>[1]</sup>
+              </h6>
+              <h5 class="text-uppercase fs-6 lh-base">
                 On select 2021 and 2022 JEEP<sub>®</sub> brand SUVs when
                 financed through Chrysler Capital
               </h5>
-              <p>Show Disclosure</p>
-              <button class="btn btn-secondary fw-bold text-uppercase">
-                Incentives and Offers<i class="bi bi-chevron-right"></i>
+              <p class="fs-7 lh-sm fw-bold text-decoration-underline">
+                Show Disclosure
+              </p>
+              <button
+                class="btn btn-secondary fs-6 fw-bold close-spacing text-uppercase col-12"
+              >
+                <div class="d-flex justify-content-end align-items-center">
+                  <span>Incentives and Offers</span
+                  ><i class="bi bi-chevron-right right-icon"></i>
+                </div>
               </button>
             </div>
           </div>
@@ -223,18 +235,21 @@
               class="d-block w-100"
             />
             <div class="carousel-caption bg-transp-light">
-              <h6 class="fw-bold text-uppercase">
+              <h6 class="text-uppercase fs-7 fw-bold">
                 The start of a grand journey
               </h6>
-              <p>
+              <p class="lh-base">
                 A new set of standards for the premium SUV is here. Get ready to
                 experience sophistification, authenticity and modern mobility
                 with the All-New-Wagoneer and Grand Wagoneer.
               </p>
-              <button class="btn btn-secondary fw-bold text-uppercase">
-                Visit Wagoneer and Grand Wagoneer<i
-                  class="bi bi-chevron-right"
-                ></i>
+              <button
+                class="btn btn-secondary fs-6 text-uppercase close-spacing fw-bold col-12"
+              >
+                <div class="d-flex justify-content-end align-items-center">
+                  <span>Visit Wagoneer and Grand Wagoneer</span>
+                  <i class="bi bi-chevron-right right-icon"></i>
+                </div>
               </button>
             </div>
           </div>
@@ -259,53 +274,53 @@
         </button>
       </div>
       <div class="text-center zip-code">
-        <p class="mb-0 lh-1">
-          Current offers for
+        <p class="mb-0 lh-1 fs-7">
+          Current Offers for
           <strong
             >12345
-            <a href="#changezip" class="text-reset">Change Zip</a></strong
+            <a href="#changezip" class="text-reset">Change ZIP</a></strong
           >
         </p>
       </div>
       <div class="vehicle-showcase py-5 px-1 text-center">
-        <h2 class="text-uppercase">JEEP<sub>®</sub> Vehicles</h2>
+        <h5 class="text-uppercase fs-5 fw-bold">JEEP<sub>®</sub> Vehicles</h5>
         <div class="d-flex flex-wrap justify-content-center">
           <div class="card px-3">
             <img
               src="/img/vehicle-showcase/showcase-1-new-grand-cherokee.jpg"
             />
             <div class="card-body text-center py-0">
-              <h6 class="mb-2 lh-1 fw-bold text-uppercase">
+              <h6 class="mb-2 fs-6 fw-bold text-uppercase">
                 New Grand Cherokee
               </h6>
-              <p class="m-0 lh-1 msrp text-uppercase">MSRP* starting at</p>
-              <p class="m-0 lh-1 fw-bold">$38,720</p>
+              <p class="m-0 fs-9 text-uppercase">MSRP* starting at</p>
+              <p class="m-0 fs-6 fw-bolder">$38,720</p>
             </div>
           </div>
           <div class="card px-3">
             <img src="/img/vehicle-showcase/showcase-2-wrangler-4xe.jpg" />
             <div class="card-body text-center py-0">
-              <h6 class="mb-2 lh-1 fw-bold">WRANGLER 4xe</h6>
-              <p class="m-0 lh-1 msrp text-uppercase">MSRP* starting at</p>
-              <p class="m-0 lh-1 fw-bold">$53,795</p>
+              <h6 class="mb-2 fs-6 fw-bold">WRANGLER 4xe</h6>
+              <p class="m-0 fs-9 text-uppercase">MSRP* starting at</p>
+              <p class="m-0 fs-6 fw-bolder">$53,795</p>
             </div>
           </div>
           <div class="card px-3">
             <img src="/img/vehicle-showcase/showcase-3-wrangler-std.jpg" />
             <div class="card-body text-center py-0">
-              <h6 class="mb-2 lh-1 fw-bold text-uppercase">Wrangler</h6>
-              <p class="m-0 lh-1 msrp text-uppercase">MSRP* starting at</p>
-              <p class="m-0 lh-1 fw-bold">$29,995</p>
+              <h6 class="mb-2 fs-6 fw-bold text-uppercase">Wrangler</h6>
+              <p class="m-0 fs-9 text-uppercase">MSRP* starting at</p>
+              <p class="m-0 fs-6 fw-bolder">$29,995</p>
             </div>
           </div>
           <div class="card px-3">
             <img src="/img/vehicle-showcase/showcase-4-grand-cherokee-wk.jpg" />
             <div class="card-body text-center py-0">
-              <h6 class="mb-2 lh-1 fw-bold text-uppercase">
+              <h6 class="mb-2 fs-6 fw-bold text-uppercase">
                 Grand Cherokee WK
               </h6>
-              <p class="m-0 lh-1 msrp text-uppercase">MSRP* starting at</p>
-              <p class="m-0 lh-1 fw-bold">$37,375</p>
+              <p class="m-0 fs-9 text-uppercase">MSRP* starting at</p>
+              <p class="m-0 fs-6 fw-bolder">$37,375</p>
             </div>
           </div>
           <div class="card px-3">
@@ -313,10 +328,10 @@
               src="/img/vehicle-showcase/showcase-9-all-new-grand-cherokee-4xe.jpg"
             />
             <div class="card-body text-center py-0">
-              <h6 class="mb-2 lh-1 fw-bold">ALL NEW GRAND CHEROKEE 4xe</h6>
-              <p class="fw-bold lh-1 mb-1">Coming Spring 2022</p>
-              <p class="m-0 lh-1 msrp text-uppercase">MSRP* starting at</p>
-              <p class="m-0 lh-1 fw-bold">$58,095</p>
+              <h6 class="mb-2 fs-6 fw-bold">ALL NEW GRAND CHEROKEE 4xe</h6>
+              <p class="fw-bold fs-6 mb-1">Coming Spring 2022</p>
+              <p class="m-0 fs-9 text-uppercase">MSRP* starting at</p>
+              <p class="m-0 fs-6 fw-bolder">$58,095</p>
             </div>
           </div>
         </div>
@@ -328,16 +343,21 @@
           src="/img/banners/wagoneer/wagoneer-mob.jpg"
         />
         <div class="card-body text-white">
-          <p class="msrp">Available Jeep<sub>®</sub> Accessories Shown.</p>
-          <h3 class="card-title fw-bold text-uppercase">
+          <p class="fs-8">Available Jeep<sub>®</sub> Accessories Shown.</p>
+          <h5 class="card-title fs-5 fw-bold text-uppercase">
             The return of an American premium
-          </h3>
-          <p class="card-text">
+          </h5>
+          <p class="card-text fs-6 lh-base">
             The All-New Wagoneer and Grand Wagoneer travel into uncharted
             territories of style, comfort and adventure.
           </p>
-          <button class="btn btn-secondary fw-bold text-uppercase">
-            Explore Wagoneer<i class="bi bi-chevron-right"></i>
+          <button
+            class="btn btn-secondary fs-6 fw-bold close-spacing text-uppercase col-12"
+          >
+            <div class="d-flex justify-content-end align-items-center">
+              <span>Explore Wagoneer</span
+              ><i class="bi bi-chevron-right right-icon"></i>
+            </div>
           </button>
         </div>
       </div>
@@ -349,14 +369,14 @@
           <div
             class="card-img-overlay text-white d-flex flex-column justify-content-end"
           >
-            <h3 class="card-title fw-bold text-uppercase">
-              The contemporary SUV redesigned
+            <h3 class="card-title fs-3 fw-bold text-uppercase">
+              The Contemporary SUV Redesigned
             </h3>
             <a
               href="#compass"
-              class="card-text text-white text-decoration-none text-uppercase"
+              class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
               >Explore the new JEEP<sub>®</sub> Compass<i
-                class="bi bi-chevron-right text-secondary"
+                class="bi bi-chevron-right text-secondary right-icon"
               ></i
             ></a>
           </div>
@@ -366,14 +386,14 @@
           <div
             class="card-img-overlay text-white d-flex flex-column justify-content-end"
           >
-            <h3 class="card-title fw-bold text-uppercase">
-              Most capable Wrangler generation ever
+            <h3 class="card-title fs-3 fw-bold text-uppercase">
+              Most Capable Wrangler Generation Ever
             </h3>
             <a
               href="#wrangler"
-              class="card-text text-white text-decoration-none text-uppercase"
+              class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
               >Explore the JEEP<sub>®</sub> Wrangler<i
-                class="bi bi-chevron-right text-secondary"
+                class="bi bi-chevron-right text-secondary right-icon"
               ></i
             ></a>
           </div>
@@ -383,14 +403,15 @@
           <div
             class="card-img-overlay text-white d-flex flex-column justify-content-end"
           >
-            <h3 class="card-title fw-bold text-uppercase">
+            <h3 class="card-title fs-3 fw-bold text-uppercase">
               100% truck, 100% JEEP 4x4
             </h3>
             <a
               href="#gladiator"
-              class="card-text text-white text-decoration-none text-uppercase"
-              >Explore the JEEP<sub>®</sub> Gladiator
-              <i class="bi bi-chevron-right text-secondary"></i
+              class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
+              >Explore the JEEP<sub>®</sub> Gladiator<i
+                class="bi bi-chevron-right text-secondary right-icon"
+              ></i
             ></a>
           </div>
         </div>
@@ -403,19 +424,19 @@
           <div
             class="card-img-overlay text-white d-flex flex-column justify-content-end"
           >
-            <h3 class="card-title fw-bold text-uppercase">
+            <h3 class="card-title fs-3 fw-bold text-uppercase">
               Let's change the world together
             </h3>
-            <p class="card-text">
-              The Jeep® Brand is proud to be working with (RED) to help solve
-              global health issues and to create a better world for all. Join
-              the fight today.
+            <p class="card-text fs-6 lh-sm">
+              The Jeep<sub>®</sub> Brand is proud to be working with (RED) to
+              help solve global health issues and to create a better world for
+              all. Join the fight today.
             </p>
             <a
               href="#red"
-              class="card-text text-white text-decoration-none text-uppercase"
+              class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
               >Learn more about the (RED) initiative<i
-                class="bi bi-chevron-right text-secondary"
+                class="bi bi-chevron-right text-secondary right-icon"
               ></i
             ></a>
           </div>
@@ -423,31 +444,31 @@
         <div class="bg-grey col card">
           <img src="/img/tiles/kbb/tiles-kbb-mob.jpg" />
           <div class="card-img-overlay d-flex flex-column justify-content-end">
-            <h3 class="card-title fw-bold text-uppercase">
+            <h3 class="card-title fs-3 fw-bold text-uppercase">
               See your vehicle's trade-in value
             </h3>
-            <p class="card-text">
+            <p class="card-text fs-6 lh-sm">
               Find out how much your current vehicle is worth from the
               independent Kelley Blue Book (KBB). KBB bases their values on
               actual transactions and adjusts them as market conditions change.
             </p>
             <a
               href="#kbb"
-              class="card-text text-dark text-decoration-none text-uppercase"
+              class="card-text text-dark fs-6 fw-bolder text-decoration-none text-uppercase"
               >Check your trade-in value<i
-                class="bi bi-chevron-right text-secondary"
+                class="bi bi-chevron-right text-secondary right-icon"
               ></i
             ></a>
           </div>
         </div>
       </div>
-      <div class="bg-white card text-center">
+      <div class="bg-white card">
         <img src="/img/logos/jeep-wave/jeep-wave-1000.jpg" />
         <div class="card-body">
-          <h3 class="card-title fw-bold text-uppercase">
+          <h2 class="card-title fs-2 fw-bold text-uppercase">
             Worry-free maintenance for your peace of mind
-          </h3>
-          <p class="card-text">
+          </h2>
+          <p class="card-text fs-6 lh-base">
             You will be automatically enrolled into the Jeep Wave® program witht
             he purchase or lease of any Jeep® Brand vehicle starting with the
             2021 model year. This premium customer care program is valid for 36
@@ -456,8 +477,15 @@
             additional perks and benefits. It is the Most Valuable Customer Care
             Program in America.
           </p>
-          <button class="btn btn-secondary fw-bold text-uppercase">
-            Learn more<i class="bi bi-chevron-right"></i>
+          <button
+            class="btn btn-secondary fs-6 fw-bold close-spacing text-uppercase col-12"
+          >
+            <div
+              class="d-flex justify-content-end align-items-center text-start"
+            >
+              <span>Learn More</span
+              ><i class="bi bi-chevron-right right-icon"></i>
+            </div>
           </button>
         </div>
       </div>
@@ -465,20 +493,25 @@
         <img class="card-img-top" src="/img/banners/e-shop/e-shop-mob.jpg" />
         <div class="card-body text-white">
           <img src="/img/logos/jeep-e-shop.jpg" />
-          <p class="card-text">
-            Now the Jeep® E-Shop Program is delivering the complete dealership
-            experience online, from vehicle inventory to finance. Home delivery
-            is available through participating dealerships.
+          <p class="card-text fs-6 lh-base">
+            Now the Jeep<sub>®</sub> E-Shop Program is delivering the complete
+            dealership experience online, from vehicle inventory to finance.
+            Home delivery is available through participating dealerships.
           </p>
-          <button class="btn btn-secondary fw-bold text-uppercase">
-            Learn more<i class="bi bi-chevron-right"></i>
+          <button
+            class="btn btn-secondary fs-6 fw-bold close-spacing text-uppercase col-12"
+          >
+            <div class="d-flex justify-content-end align-items-center">
+              <span>Learn More</span
+              ><i class="bi bi-chevron-right right-icon"></i>
+            </div>
           </button>
         </div>
       </div>
       <div class="pt-5 text-center">
-        <h1 class="fw-bold py-5 text-uppercase">
+        <h2 class="py-5 fs-2 fw-bold text-uppercase">
           Join the JEEP<sub>®</sub> brand community
-        </h1>
+        </h2>
         <div class="row row-cols-1 row-cols-md-3 gx-0 gy-2">
           <div class="card p-0">
             <img src="/img/social/youtube/youtube-mob.jpg" />
@@ -487,8 +520,10 @@
             >
               <a
                 href="#youtube"
-                class="card-text text-white text-decoration-none text-uppercase"
-                >Follow us on Youtube<i class="bi bi-box-arrow-up-right"></i
+                class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
+                >Follow us on Youtube<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
             </div>
           </div>
@@ -499,8 +534,10 @@
             >
               <a
                 href="#instagram"
-                class="card-text text-white text-decoration-none text-uppercase"
-                >Follow us on Instagram<i class="bi bi-box-arrow-up-right"></i
+                class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
+                >Follow us on Instagram<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
             </div>
           </div>
@@ -511,8 +548,10 @@
             >
               <a
                 href="#facebook"
-                class="card-text text-white text-decoration-none text-uppercase"
-                >Follow us on Facebook<i class="bi bi-box-arrow-up-right"></i
+                class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
+                >Follow us on Facebook<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
             </div>
           </div>
@@ -525,8 +564,10 @@
             >
               <a
                 href="#twitter"
-                class="card-text text-white text-decoration-none text-uppercase"
-                >Follow us on Twitter<i class="bi bi-box-arrow-up-right"></i
+                class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
+                >Follow us on Twitter<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
             </div>
           </div>
@@ -537,8 +578,10 @@
             >
               <a
                 href="#linkedin"
-                class="card-text text-white text-decoration-none text-uppercase"
-                >Follow us on LinkedIn<i class="bi bi-box-arrow-up-right"></i
+                class="card-text text-white fs-6 fw-bolder text-decoration-none text-uppercase"
+                >Follow us on LinkedIn<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
             </div>
           </div>
@@ -546,31 +589,44 @@
       </div>
       <div class="bg-grey-dark row cols-1 g-0 pb-5 justify-content-center">
         <div class="row row-cols-2 gy-3">
-          <a href="driveability" class="text-white text-decoration-none"
+          <a
+            href="driveability"
+            class="text-white fs-6 lh-sm text-decoration-none"
             ><img src="/img/logos/driveability.jpg" alt="DriveAbility" /><i
               class="bi bi-box-arrow-up-right"
             ></i
           ></a>
-          <a href="countryselect" class="text-white text-decoration-none"
-            ><i class="bi bi-globe2"></i>Find Your Country<i
-              class="bi bi-box-arrow-up-right"
+          <a
+            href="countryselect"
+            class="text-white fs-6 lh-sm text-decoration-none"
+            ><i class="bi bi-globe2 left-icon"></i>Find Your Country<i
+              class="bi bi-box-arrow-up-right right-icon"
             ></i
           ></a>
-          <a href="contact" class="text-white text-decoration-none"
-            >Contact Us<i class="bi bi-box-arrow-up-right"></i
+          <a href="contact" class="text-white fs-6 lh-sm text-decoration-none"
+            >Contact Us<i class="bi bi-box-arrow-up-right right-icon"></i
           ></a>
-          <a href="sitemap" class="text-white text-decoration-none">Site Map</a>
-          <a href="careers" class="text-white text-decoration-none"
-            >Careers<i class="bi bi-box-arrow-up-right"></i
+          <a href="sitemap" class="text-white fs-6 lh-sm text-decoration-none"
+            >Site Map</a
+          >
+          <a href="careers" class="text-white fs-6 lh-sm text-decoration-none"
+            >Careers<i class="bi bi-box-arrow-up-right right-icon"></i
           ></a>
-          <a href="spanish" class="text-white text-decoration-none">Español</a>
+          <a href="spanish" class="text-white fs-6 lh-sm text-decoration-none"
+            >Español</a
+          >
         </div>
         <div class="input-group px-3 mt-4">
           <span class="input-group-text bg-white"
             ><i class="bi bi-search"></i
           ></span>
           <input type="search" id="search" class="form-control" />
-          <button type="button" class="btn btn-secondary">Search</button>
+          <button
+            type="button"
+            class="btn btn-secondary fs-7 fw-bold close-spacing text-uppercase"
+          >
+            Search
+          </button>
         </div>
       </div>
       <footer class="bg-dark">
@@ -578,54 +634,71 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-vehicles"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Vehicles<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Vehicles</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-vehicles">
               <div class="mb-2 col-12"></div>
               <a
                 href="#new-grand-cherokee"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >New Grand Cherokee</a
               >
               <a
                 href="#new-grand-cherokee-4xe"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >All-New Grand Cherokee 4xe</a
               >
               <a
                 href="#new-grand-cherokee-l"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >All-New Grand Cherokee L</a
               >
-              <a href="#wagoneer" class="text-white text-decoration-none"
+              <a
+                href="#wagoneer"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Wagoneer and Grand Wagoneer</a
               >
-              <a href="#wrangler-4xe" class="text-white text-decoration-none"
+              <a
+                href="#wrangler-4xe"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Wrangler 4xe</a
               >
-              <a href="#wrangler" class="text-white text-decoration-none"
+              <a
+                href="#wrangler"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Wrangler</a
               >
               <a
                 href="#grand-cherokee-wk"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Grand Cherokee WK</a
               >
-              <a href="#cherokee" class="text-white text-decoration-none"
+              <a
+                href="#cherokee"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Cherokee</a
               >
-              <a href="#renegade" class="text-white text-decoration-none"
+              <a
+                href="#renegade"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Renegade</a
               >
-              <a href="#compass" class="text-white text-decoration-none"
+              <a
+                href="#compass"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Compass</a
               >
-              <a href="#gladiator" class="text-white text-decoration-none"
+              <a
+                href="#gladiator"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Gladiator</a
               >
-              <a href="#vehicles" class="text-white text-decoration-none"
+              <a
+                href="#vehicles"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >All Vehicles</a
               >
               <div class="mb-2 col-12"></div>
@@ -634,38 +707,51 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-cost"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Cost<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Cost</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-cost">
               <div class="mb-2 col-12"></div>
-              <a href="#incentives" class="text-white text-decoration-none"
+              <a
+                href="#incentives"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >View Incentives & Offers</a
               >
               <a
                 href="#4xe-hybrid-incentives"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >4xe Hybrid Incentives</a
               >
               <a
                 href="#national-incentives"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >National Incentives</a
               >
               <a
                 href="#calculate-payment"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Calculate Payment</a
               >
-              <a href="#quote" class="text-white text-decoration-none"
-                >Get a Quote<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#quote"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Get a Quote<i class="bi bi-box-arrow-up-right right-icon"></i
               ></a>
-              <a href="#credit" class="text-white text-decoration-none"
-                >Apply for Credit<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#credit"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Apply for Credit<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
-              <a href="#prequalify" class="text-white text-decoration-none"
-                >Get Prequalified<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#prequalify"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Get Prequalified<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
               <div class="mb-2 col-12"></div>
             </div>
@@ -673,33 +759,46 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-research"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Research<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Research</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-research">
               <div class="mb-2 col-12"></div>
-              <a href="#build" class="text-white text-decoration-none"
+              <a
+                href="#build"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Build & Price</a
               >
-              <a href="#compare" class="text-white text-decoration-none"
+              <a
+                href="#compare"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Compare Models</a
               >
-              <a href="#brochures" class="text-white text-decoration-none"
+              <a
+                href="#brochures"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Get a Brochure</a
               >
-              <a href="#sign-up" class="text-white text-decoration-none"
+              <a
+                href="#sign-up"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Sign Up for Updates</a
               >
               <a
                 href="#competitive-compare"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Competitive Compare</a
               >
-              <a href="#suvs" class="text-white text-decoration-none"
+              <a
+                href="#suvs"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Brand SUVs</a
               >
-              <a href="#tax-credit" class="text-white text-decoration-none"
+              <a
+                href="#tax-credit"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Tax Credit</a
               >
               <div class="mb-2 col-12"></div>
@@ -708,29 +807,40 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-locate"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Locate<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Locate</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-locate">
               <div class="mb-2 col-12"></div>
-              <a href="#new-inventory" class="text-white text-decoration-none"
+              <a
+                href="#new-inventory"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Search New Inventory</a
               >
-              <a href="#start-buying" class="text-white text-decoration-none"
-                >Start Buying Process<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#start-buying"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Start Buying Process<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
-              <a href="#dealers" class="text-white text-decoration-none"
+              <a
+                href="#dealers"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Find a Dealer</a
               >
-              <a href="#test-drive" class="text-white text-decoration-none"
+              <a
+                href="#test-drive"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Schedule a Test Drive</a
               >
               <a
                 href="#pre-owned-inventory"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Certified Pre-Owned Inventory<i
-                  class="bi bi-box-arrow-up-right"
+                  class="bi bi-box-arrow-up-right right-icon"
                 ></i
               ></a>
               <div class="mb-2 col-12"></div>
@@ -739,25 +849,34 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-capability"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Capability<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Capability</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div
               class="collapse row row-cols-2 g-0 gy-1"
               id="footer-capability"
             >
               <div class="mb-2 col-12"></div>
-              <a href="#trail-rated" class="text-white text-decoration-none"
-                >Trail Rated®</a
+              <a
+                href="#trail-rated"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Trail Rated<sup>®</sup></a
               >
-              <a href="#4x4-systems" class="text-white text-decoration-none"
+              <a
+                href="#4x4-systems"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >4x4 Systems</a
               >
-              <a href="#fuel-efficiency" class="text-white text-decoration-none"
+              <a
+                href="#fuel-efficiency"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Fuel Efficiency</a
               >
-              <a href="#faq" class="text-white text-decoration-none"
+              <a
+                href="#faq"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >FAQ and Glossary</a
               >
               <div class="mb-2 col-12"></div>
@@ -766,28 +885,41 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-jeep-life"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Jeep Life<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Jeep Life</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-jeep-life">
               <div class="mb-2 col-12"></div>
-              <a href="#road-ahead" class="text-white text-decoration-none"
+              <a
+                href="#road-ahead"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >The Road Ahead</a
               >
-              <a href="#jeep-life-home" class="text-white text-decoration-none"
+              <a
+                href="#jeep-life-home"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Life Home</a
               >
-              <a href="#badge-of-honor" class="text-white text-decoration-none"
+              <a
+                href="#badge-of-honor"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Badge of Honor</a
               >
-              <a href="#partnerships" class="text-white text-decoration-none"
+              <a
+                href="#partnerships"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Partnerships</a
               >
-              <a href="#brand-history" class="text-white text-decoration-none"
+              <a
+                href="#brand-history"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Brand History</a
               >
-              <a href="#red-partnership" class="text-white text-decoration-none"
+              <a
+                href="#red-partnership"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >(Jeep)<sup>RED</sup> Partnership</a
               >
               <div class="mb-2 col-12"></div>
@@ -796,23 +928,30 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-privacy"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Privacy Center<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Privacy Center</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-privacy">
               <div class="mb-2 col-12"></div>
-              <a href="#privacy-policy" class="text-white text-decoration-none"
-                >Privacy Policy<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#privacy-policy"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Privacy Policy<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
               <a
                 href="#opt-out-info-sharing"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Do Not Sell My Personal Info<i
-                  class="bi bi-box-arrow-up-right"
+                  class="bi bi-box-arrow-up-right right-icon"
                 ></i
               ></a>
-              <a href="#cookies" class="text-white text-decoration-none"
+              <a
+                href="#cookies"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Cookie Settings</a
               >
               <div class="mb-2 col-12"></div>
@@ -821,25 +960,32 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-legal"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Legal<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Legal</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-legal">
               <div class="mb-2 col-12"></div>
-              <a href="#copyright" class="text-white text-decoration-none"
-                >Copyright<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#copyright"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Copyright<i class="bi bi-box-arrow-up-right right-icon"></i
               ></a>
-              <a href="#terms-of-use" class="text-white text-decoration-none"
-                >Terms of Use<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#terms-of-use"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Terms of Use<i class="bi bi-box-arrow-up-right right-icon"></i
               ></a>
-              <a href="#legal-info" class="text-white text-decoration-none"
+              <a
+                href="#legal-info"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Legal, Safety and Trademark Information</a
               >
               <a
                 href="#legal-accessibility"
-                class="text-white text-decoration-none"
-                >Accessibility<i class="bi bi-box-arrow-up-right"></i
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Accessibility<i class="bi bi-box-arrow-up-right right-icon"></i
               ></a>
               <div class="mb-2 col-12"></div>
             </div>
@@ -847,40 +993,56 @@
           <div class="m-3 pb-2 border-bottom border-white">
             <a
               href="#footer-owners"
-              class="text-white text-decoration-none text-uppercase"
+              class="text-white fs-7 fw-bold lh-sm text-decoration-none text-uppercase d-flex col-12"
               data-bs-toggle="collapse"
-              >Owners<i class="bi bi-chevron-down"></i
+              ><span class="me-auto">Owners</span
+              ><i class="bi bi-chevron-down right-icon"></i
             ></a>
             <div class="collapse row row-cols-2 g-0 gy-1" id="footer-owners">
               <div class="mb-2 col-12"></div>
               <a
                 href="#manuals-and-guides"
-                class="text-white text-decoration-none"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Owners Manuals and User Guides<i
-                  class="bi bi-box-arrow-up-right"
+                  class="bi bi-box-arrow-up-right right-icon"
                 ></i
               ></a>
-              <a href="#warranty" class="text-white text-decoration-none"
+              <a
+                href="#warranty"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Warranty</a
               >
-              <a href="#jeep-wave" class="text-white text-decoration-none"
+              <a
+                href="#jeep-wave"
+                class="text-white fs-6 lh-base text-decoration-none"
                 >Jeep<sub>®</sub> Wave Owner Benefits</a
               >
-              <a href="#recall-info" class="text-white text-decoration-none"
-                >Recall Information<i class="bi bi-box-arrow-up-right"></i
+              <a
+                href="#recall-info"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Recall Information<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
               ></a>
               <a
                 href="#eco-diesel-settlement"
-                class="text-white text-decoration-none"
-                >EcoDiesel Settlement<i class="bi bi-box-arrow-up-right"></i
-              ></a>
-              <a href="#jeep-gear" class="text-white text-decoration-none"
-                >Jeep<sub>®</sub> Gear<i class="bi bi-box-arrow-up-right"></i
-              ></a>
-              <a href="#driveplus" class="text-white text-decoration-none"
-                >Jeep<sub>®</sub> DrivePlus<sup>SM</sup> Mastercard®<i
-                  class="bi bi-box-arrow-up-right"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >EcoDiesel Settlement<i
+                  class="bi bi-box-arrow-up-right right-icon"
                 ></i
+              ></a>
+              <a
+                href="#jeep-gear"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Jeep<sub>®</sub> Gear<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i
+              ></a>
+              <a
+                href="#driveplus"
+                class="text-white fs-6 lh-base text-decoration-none"
+                >Jeep<sub>®</sub> DrivePlus<sup>SM</sup> Mastercard<sup>®</sup
+                ><i class="bi bi-box-arrow-up-right right-icon"></i
               ></a>
               <div class="mb-2 col-12"></div>
             </div>
@@ -890,7 +1052,7 @@
           class="text-white row row-cols-2 g-0 mx-3 pb-4 border-bottom border-grey"
         >
           <div>
-            <p class="text-uppercase">Follow Us</p>
+            <p class="fs-7 fw-bolder lh-sm text-uppercase">Follow Us</p>
             <div class="d-flex row-wrap fs-2">
               <a href="#instagram" class="text-white"
                 ><i class="bi bi-instagram p-1"></i
@@ -910,16 +1072,16 @@
             </div>
           </div>
           <div>
-            <p class="text-uppercase">Support</p>
+            <p class="fs-7 fw-bolder lh-sm text-uppercase">Support</p>
             <div class="row row-cols-1 g-0 gy-1">
               <a href="#uconnect" class="text-white"
                 ><img src="/img/logos/uconnect.jpg" alt="UConnect" /><i
-                  class="bi bi-box-arrow-up-right"
+                  class="bi bi-box-arrow-up-right right-icon"
                 ></i
               ></a>
               <a href="#siriusxm" class="text-white"
                 ><img src="/img/logos/siriusxm.png" alt="SiriusXM" /><i
-                  class="bi bi-box-arrow-up-right"
+                  class="bi bi-box-arrow-up-right right-icon"
                 ></i
               ></a>
             </div>
@@ -936,58 +1098,63 @@
           <div class="d-flex flex-wrap pb-3">
             <a
               href="#chrysler"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >Chrysler<i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >Chrysler<i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#dodge"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-1"
-              >Dodge<i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-1"
+              >Dodge<i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#jeep"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >Jeep<sub>®</sub><i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >Jeep<sub>®</sub
+              ><i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#ram"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >Ram<i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >Ram<i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#mopar"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >Mopar<sub>®</sub><i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >Mopar<sub>®</sub
+              ><i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#fiat"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >FIAT®<i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >FIAT<sup>®</sup
+              ><i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#alfa-romeo"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >Alfa Romeo<i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >Alfa Romeo<i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
             <a
               href="#fca-fleet"
-              class="text-white text-decoration-none text-uppercase pb-2 pe-2"
-              >FCA Fleet<i class="bi bi-box-arrow-up-right"></i
+              class="text-white fs-8 text-decoration-none text-uppercase pb-2 pe-2"
+              >FCA Fleet<i class="bi bi-box-arrow-up-right right-icon"></i
             ></a>
           </div>
-          <div class="text-white pb-4">
+          <div class="text-white fs-8 lh-xs pb-4">
             <p>
               ©2022 FCA US LLC. All Rights Reserved. Chrysler, Dodge, Jeep, Ram,
               Wagoneer, Mopar and SRT are registered trademarks of FCA US LLC.
               ALFA ROMEO and FIAT are registered trademarks of FCA Group
               Marketing S.p.A., used with permission.
-              <br />
+            </p>
+            <p>
               *MSRP excludes destination, taxes, title and registration fees.
               Starting at price refers to the base model, optional equipment not
               included. A more expensive model may be shown. Pricing and offers
               may change at any time without notification. To get full pricing
               details, see your dealer.
-              <br />
+            </p>
+            <p>
               FCA US LLC strives to ensure that its website is accessible to
               individuals with disabilities. Should you encounter an issue
               accessing any content on www.jeep.com, please
