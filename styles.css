@@ -252,6 +252,15 @@ a > .right-icon {
 
 /* Carousel */
 
+.carousel-caption {
+    width: 80%;
+    top: 5%;
+    bottom: auto;
+    left: 10%;
+    right: 10%;
+    padding: 30px 20px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     display: none;
