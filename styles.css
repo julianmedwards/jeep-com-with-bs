@@ -289,3 +289,14 @@ a > .right-icon {
     border: none;
     border-radius: 0;
 }
+
+/* Banners */
+/* E-Shop & Wagoneer Banners */
+.bg-dark.card > .card-body {
+    padding: 30px 30px 40px;
+}
+
+.banner-disclaimer {
+    width: calc(100% - 60px);
+    top: 285px;
+}
