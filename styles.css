@@ -103,6 +103,13 @@ h6,
     font-size: 0.714rem !important;
     line-height: 1em !important;
 }
+
+/* 11px */
+.fs-7-5 {
+    font-size: 0.786rem !important;
+    line-height: 1em !important;
+}
+
 /* 12px */
 .fs-7 {
     font-size: 0.857rem !important;
@@ -308,10 +315,6 @@ nav > div {
 }
 
 /* Vehicle Showcase */
-.vehicle-showcase .card {
-    flex-basis: 50%;
-}
-
 .card,
 .card-img-top {
     border: none;
@@ -321,17 +324,33 @@ nav > div {
 /* Banners */
 /* E-Shop & Wagoneer Banners */
 .bg-dark.card > .card-body {
-    padding: 30px 30px 40px;
+    padding: 30px 30px 40px 30px;
 }
-
-.banner-disclaimer {
-    width: calc(100% - 60px);
-    top: 285px;
+#wagoneer-banner > .card-body {
+    padding-top: 0px;
+}
+#wagoneer-banner > .card-body > h5 {
+    padding-top: 30px;
 }
 
 /* Media Queries */
 /* SM - 576px */
-
+@media screen and (min-width: 576px) {
+    .banner-disclaimer {
+        font-size: 0.786rem !important;
+    }
+    .footer-links {
+        height: 1735px;
+    }
+}
+/* Bounded to breakpoint range. */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #wagoneer-banner > div {
+        position: relative;
+        bottom: 31px;
+        padding-bottom: 5px !important;
+    }
+}
 /* MD - 768px */
 @media screen and (min-width: 768px) {
     .navbar {
