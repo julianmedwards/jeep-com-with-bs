@@ -351,6 +351,7 @@ nav > div {
         padding-bottom: 5px !important;
     }
 }
+
 /* MD - 768px */
 @media screen and (min-width: 768px) {
     .navbar {
@@ -365,6 +366,18 @@ nav > div {
     .navbar-brand {
         max-width: 87px;
     }
+    #carousel-celebration > .carousel-caption > h6 {
+        font-size: 0.857rem !important;
+    }
+    #carousel-wagoneer > .carousel-caption > h6 {
+        font-size: 15px !important;
+    }
+    .carousel-caption {
+        padding: 40px;
+    }
+}
+/* Bounded to breakpoint range. */
+@media screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 /* LG - 992px */
