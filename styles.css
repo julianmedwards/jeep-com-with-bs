@@ -142,10 +142,11 @@ h6,
     font-size: 1.857rem !important;
     line-height: 1em !important;
 }
-
-/* .fs-1 {
-    -- Unused --
-} */
+/* 33px */
+.fs-1 {
+    font-size: 2.357rem !important;
+    line-height: 1em !important;
+}
 
 .close-spacing {
     letter-spacing: 0.7px !important;
@@ -334,6 +335,15 @@ nav > div {
 }
 
 /* Media Queries */
+/* XS - <576px */
+@media screen and (max-width: 575px) {
+    #new-wagoneer-banner button,
+    #wagoneer-banner button,
+    #jeep-wave button {
+        width: 100%;
+    }
+}
+
 /* SM - 576px */
 @media screen and (min-width: 576px) {
     .banner-disclaimer {
@@ -374,6 +384,49 @@ nav > div {
     }
     .carousel-caption {
         padding: 40px;
+    }
+    .vehicle-showcase > h5 {
+        font-size: 1.643rem !important;
+    }
+    #new-wagoneer-banner .card-img-overlay {
+        left: 5%;
+        width: 40%;
+    }
+    #e-shop-banner .card-img-overlay {
+        left: auto;
+        right: 5%;
+        width: 40%;
+    }
+    #e-shop-banner .card-img-overlay > div {
+        height: 100%;
+    }
+    #tiles .card {
+        padding: 10px !important;
+    }
+    #tiles > div {
+        padding: 10px !important;
+    }
+    #jeep-wave h2 {
+        font-size: 2.357rem !important;
+    }
+    #community > h2 {
+        font-size: 2.357rem !important;
+    }
+    #community > .row:first-of-type > div:nth-child(1) {
+        padding-right: 10px !important;
+    }
+    #community > .row:first-of-type > div:nth-child(2) {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    #community > .row:first-of-type > div:nth-child(3) {
+        padding-left: 10px !important;
+    }
+    #community > .row:last-of-type > div:nth-child(1) {
+        padding-right: 10px !important;
+    }
+    #community > .row:last-of-type > div:nth-child(2) {
+        padding-left: 10px !important;
     }
 }
 /* Bounded to breakpoint range. */
