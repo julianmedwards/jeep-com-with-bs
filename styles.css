@@ -297,16 +297,36 @@ nav > div {
     padding: 30px 20px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    display: none;
+.carousel-control-prev-icon {
+    background-image: url(/img/icons/chevron-compact-left.svg);
+    background-size: contain;
+    height: 6.5rem;
+    width: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+.carousel-control-next-icon {
+    background-image: url(/img/icons/chevron-compact-right.svg);
+    background-size: contain;
+    height: 6.5rem;
+    width: 4rem;
+    position: absolute;
+    right: 0px;
+    transform: translateY(-50%);
 }
 
-@media screen and (min-width: 992px) {
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: initial;
-    }
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(255, 186, 0, 0);
+    border: 2px solid #bfbfbf;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators .active {
+    background-color: rgba(255, 186, 0, 1);
 }
 
 .zip-code {
@@ -341,8 +361,13 @@ nav > div {
     background-color: #212121;
     border-top: 0.10714rem solid hsla(0, 0%, 100%, 0.22);
     width: 100%;
+    max-width: 1200px;
     height: 2px;
     margin: auto;
+}
+
+.container-xxl {
+    padding: 0px;
 }
 
 /* Media Queries */
@@ -559,13 +584,13 @@ nav > div {
         flex-grow: 0;
         /* padding-right: 8.33% !important; */
     }
-    #top-footer > .row:first-child {
+    #top-footer > div > .row:first-child {
         width: 75%;
         /* padding-left: 8.33% !important; */
     }
-    #top-footer {
-        padding-right: 8.33% !important;
-        padding-left: 8.33% !important;
+    #top-footer > div {
+        padding-right: 9.11% !important;
+        padding-left: 9.11% !important;
     }
     .footer-links {
         height: 875px;
@@ -576,10 +601,10 @@ nav > div {
     .footer-hr > div {
         width: 83.33%;
     }
-    footer > div > div.row-cols-lg-4 {
+    footer > div > div > div.row-cols-lg-4 {
         margin-left: calc(8.33vw + 8px) !important;
     }
-    footer > div:last-child > div {
+    footer > div > div:last-child > div {
         margin-right: calc(8.33vw + 8px) !important;
         margin-left: calc(8.33vw + 8px) !important;
     }
@@ -716,7 +741,8 @@ nav > div {
 /* All sizes greater */
 @media screen and (min-width: 1400px) {
     .container-xxl {
-        max-width: 1400px;
+        max-width: 1450px;
+        padding: 0px;
     }
     .navbar-brand {
         max-width: 91px;
@@ -729,5 +755,8 @@ nav > div {
     .navbar-collapse > .navbar-nav > .nav-item:nth-child(7) i,
     .navbar-collapse > .navbar-nav > .nav-item:nth-child(8) i {
         font-size: 1rem;
+    }
+    footer > div > div > div.row-cols-lg-4 {
+        margin-left: 0px !important;
     }
 }
