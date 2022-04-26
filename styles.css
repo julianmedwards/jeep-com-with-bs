@@ -153,7 +153,7 @@ h6,
 }
 
 .lh-xs {
-    line-height: 1.1rem !important;
+    line-height: 1rem !important;
 }
 
 .lh-sm {
@@ -496,9 +496,21 @@ nav > div {
         cursor: pointer;
         background-color: #636363;
     }
+    #carousel-celebration .carousel-caption {
+        padding: 40px;
+        width: calc(50% - 80px);
+        right: calc(25% + 40px);
+        left: calc(25% + 40px);
+    }
     #carousel-celebration h6 > sup {
         font-size: 0.5rem !important;
         top: -1em !important;
+    }
+    #carousel-wagoneer .carousel-caption {
+        padding: 40px;
+        width: calc(60% - 80px);
+        right: calc(20% + 40px);
+        left: calc(20% + 40px);
     }
     .vehicle-showcase > h5 {
         font-size: 30px !important;
@@ -588,12 +600,7 @@ nav > div {
     .nav-link i.bi-box-arrow-up-right {
         font-size: 0.5rem !important;
     }
-    #carousel-celebration .carousel-caption {
-        padding: 40px;
-        width: calc(50% - 80px);
-        right: calc(25% + 40px);
-        left: calc(25% + 40px);
-    }
+
     #carousel-celebration .carousel-caption > h6 {
         font-size: 20px !important;
         line-height: 1em !important;
@@ -609,12 +616,7 @@ nav > div {
         font-size: 10px !important;
         line-height: 1.5em !important;
     }
-    #carousel-wagoneer .carousel-caption {
-        padding: 40px;
-        width: calc(60% - 80px);
-        right: calc(20% + 40px);
-        left: calc(20% + 40px);
-    }
+
     #carousel-wagoneer .carousel-caption > p {
         font-size: 11px !important;
         line-height: 1.5em !important;
@@ -674,20 +676,27 @@ nav > div {
     .navbar-collapse > .navbar-nav > .nav-item:nth-child(8) {
         max-width: 115px;
     }
+    #carousel-celebration .carousel-caption {
+        padding: 40px;
+        width: 50%;
+        right: 25%;
+        left: 25%;
+    }
     #carousel-celebration .carousel-caption > h6 {
         font-size: 25px !important;
     }
     #carousel-wagoneer .carousel-caption {
         padding: 40px;
-        width: calc(60% - 80px);
-        right: calc(20% + 40px);
-        left: calc(20% + 40px);
+        width: 60%;
+        right: 0%;
+        left: 20%;
     }
     #carousel-wagoneer .carousel-caption > h6 {
         font-size: 30px !important;
     }
     #new-wagoneer-banner h5 {
         font-size: 35px !important;
+        line-height: 1em !important;
     }
     #e-shop-banner .card-img-overlay {
         right: 5%;
