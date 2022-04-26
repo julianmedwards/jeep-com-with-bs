@@ -334,6 +334,17 @@ nav > div {
     padding-top: 30px;
 }
 
+.footer-hr {
+    padding: 0 10px;
+}
+.footer-hr > div {
+    background-color: #212121;
+    border-top: 0.10714rem solid hsla(0, 0%, 100%, 0.22);
+    width: 100%;
+    height: 2px;
+    margin: auto;
+}
+
 /* Media Queries */
 /* XS - <576px */
 @media screen and (max-width: 575px) {
@@ -351,6 +362,9 @@ nav > div {
     }
     .footer-links {
         height: 1735px;
+    }
+    .footer-hr {
+        padding: 0 8px;
     }
 }
 /* Bounded to breakpoint range. */
@@ -428,11 +442,14 @@ nav > div {
     #community > .row:last-of-type > div:nth-child(2) {
         padding-left: 10px !important;
     }
-    #top-footer .input-group {
+    #top-footer .footer-search {
         width: 50%;
     }
     .footer-links {
         height: 1415px;
+    }
+    .footer-hr {
+        padding: 0 28px;
     }
 }
 /* Bounded to breakpoint range. */
@@ -479,6 +496,81 @@ nav > div {
         cursor: pointer;
         background-color: #636363;
     }
+    #carousel-celebration h6 > sup {
+        font-size: 0.5rem !important;
+        top: -1em !important;
+    }
+    .vehicle-showcase > h5 {
+        font-size: 30px !important;
+    }
+    .col-lg-20p {
+        width: 20%;
+    }
+    .vehicle-showcase .card-body > p:last-child {
+        font-size: 17px !important;
+        font-weight: 700 !important;
+    }
+    #tiles .card {
+        padding: 15px !important;
+    }
+    #tiles > div {
+        padding: 15px !important;
+    }
+    #jeep-wave {
+        flex-direction: row !important;
+    }
+    #e-shop-banner .card-img-overlay > div {
+        height: auto;
+    }
+    #community > .row:first-of-type > div:nth-child(1) {
+        padding-right: 15px !important;
+    }
+    #community > .row:first-of-type > div:nth-child(2) {
+        padding-right: 7.5px !important;
+        padding-left: 7.5px !important;
+    }
+    #community > .row:first-of-type > div:nth-child(3) {
+        padding-left: 15px !important;
+    }
+    #community > .row:last-of-type > div:nth-child(1) {
+        padding-right: 15px !important;
+    }
+    #community > .row:last-of-type > div:nth-child(2) {
+        padding-left: 15px !important;
+    }
+    #community > div:last-child {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    #top-footer .footer-search {
+        width: 25vw;
+        flex-grow: 0;
+        /* padding-right: 8.33% !important; */
+    }
+    #top-footer > .row:first-child {
+        width: 75%;
+        /* padding-left: 8.33% !important; */
+    }
+    #top-footer {
+        padding-right: 8.33% !important;
+        padding-left: 8.33% !important;
+    }
+    .footer-links {
+        height: 875px;
+    }
+    .footer-hr {
+        padding: 0;
+    }
+    .footer-hr > div {
+        width: 83.33%;
+    }
+    footer > div > div.row-cols-lg-4 {
+        margin-left: calc(8.33vw + 8px) !important;
+    }
+    footer > div:last-child > div {
+        margin-right: calc(8.33vw + 8px) !important;
+        margin-left: calc(8.33vw + 8px) !important;
+    }
 }
 /* Bounded to breakpoint range. */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -496,6 +588,83 @@ nav > div {
     .nav-link i.bi-box-arrow-up-right {
         font-size: 0.5rem !important;
     }
+    #carousel-celebration .carousel-caption {
+        padding: 40px;
+        width: calc(50% - 80px);
+        right: calc(25% + 40px);
+        left: calc(25% + 40px);
+    }
+    #carousel-celebration .carousel-caption > h6 {
+        font-size: 20px !important;
+        line-height: 1em !important;
+    }
+    #carousel-celebration .carousel-caption > .fs-6 {
+        font-size: 11px !important;
+        line-height: 1.5em !important;
+    }
+    #carousel-celebration .btn span {
+        line-height: 1em !important;
+    }
+    #carousel-celebration .carousel-caption > .fs-7 {
+        font-size: 10px !important;
+        line-height: 1.5em !important;
+    }
+    #carousel-wagoneer .carousel-caption {
+        padding: 40px;
+        width: calc(60% - 80px);
+        right: calc(20% + 40px);
+        left: calc(20% + 40px);
+    }
+    #carousel-wagoneer .carousel-caption > p {
+        font-size: 11px !important;
+        line-height: 1.5em !important;
+    }
+    #carousel-wagoneer .btn span {
+        font-size: 11px !important;
+    }
+    #carousel-wagoneer .carousel-caption > h6 {
+        font-size: 23px !important;
+    }
+    #new-wagoneer-banner .card-img-overlay {
+        width: 32%;
+    }
+    #new-wagoneer-banner h5 {
+        font-size: 28px !important;
+        line-height: 1em !important;
+    }
+    #new-wagoneer-banner p.fs-6 {
+        font-size: 11px !important;
+        line-height: 1.4em !important;
+    }
+    #new-wagoneer-banner .btn {
+        font-size: 11px !important;
+        line-height: 1em !important;
+    }
+    #e-shop-banner .card-img-overlay > div {
+        width: calc(40% - 60px);
+        left: 5%;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    #e-shop-banner .card-img-overlay {
+        width: auto;
+        left: auto;
+        justify-content: flex-end;
+    }
+    #e-shop-banner .card-img-overlay > div > * {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+    #e-shop-banner .card-img-overlay img {
+        width: 144px;
+    }
+    #e-shop-banner .card-text {
+        font-size: 11px !important;
+        line-height: 1.4em !important;
+    }
+    #e-shop-banner .btn {
+        font-size: 11px !important;
+    }
 }
 
 /* XL - 1200px */
@@ -504,6 +673,27 @@ nav > div {
     .navbar-collapse > .navbar-nav > .nav-item:nth-child(7),
     .navbar-collapse > .navbar-nav > .nav-item:nth-child(8) {
         max-width: 115px;
+    }
+    #carousel-celebration .carousel-caption > h6 {
+        font-size: 25px !important;
+    }
+    #carousel-wagoneer .carousel-caption {
+        padding: 40px;
+        width: calc(60% - 80px);
+        right: calc(20% + 40px);
+        left: calc(20% + 40px);
+    }
+    #carousel-wagoneer .carousel-caption > h6 {
+        font-size: 30px !important;
+    }
+    #new-wagoneer-banner h5 {
+        font-size: 35px !important;
+    }
+    #e-shop-banner .card-img-overlay {
+        right: 5%;
+    }
+    #e-shop-banner .card-img-overlay > div {
+        padding: 40px !important;
     }
 }
 /* Bounded to breakpoint range. */
