@@ -374,7 +374,7 @@ nav > div {
 /* XS - <576px */
 @media screen and (max-width: 575px) {
     #new-wagoneer-banner button,
-    #wagoneer-banner button,
+    #e-shop-banner button,
     #jeep-wave button {
         width: 100%;
     }
@@ -398,6 +398,9 @@ nav > div {
         position: relative;
         bottom: 31px;
         padding-bottom: 5px !important;
+    }
+    #e-shop-banner button {
+        width: 100%;
     }
 }
 
@@ -582,11 +585,9 @@ nav > div {
     #top-footer .footer-search {
         width: 25vw;
         flex-grow: 0;
-        /* padding-right: 8.33% !important; */
     }
     #top-footer > div > .row:first-child {
         width: 75%;
-        /* padding-left: 8.33% !important; */
     }
     #top-footer > div {
         padding-right: 9.11% !important;
