@@ -298,7 +298,7 @@ nav > div {
 }
 
 .carousel-control-prev-icon {
-    background-image: url(/img/icons/chevron-compact-left.svg);
+    background-image: url(../img/icons/chevron-compact-left.svg);
     background-size: contain;
     height: 6.5rem;
     width: 4rem;
@@ -308,7 +308,7 @@ nav > div {
     transform: translateY(-50%);
 }
 .carousel-control-next-icon {
-    background-image: url(/img/icons/chevron-compact-right.svg);
+    background-image: url(../img/icons/chevron-compact-right.svg);
     background-size: contain;
     height: 6.5rem;
     width: 4rem;
